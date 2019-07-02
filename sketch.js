@@ -48,7 +48,7 @@ function loaded(){
 }
 
  function mousePressed(){
-    let r = random(20 , 60);
+    let r = random(20 , 100);
     let b = new BubbleFloat(mouseX , mouseY , r);
    bubbleFloat.push(b);
 
@@ -134,7 +134,7 @@ class BubbleFloat {
     this.y = this.y + random(-5, 5);
   }
   showBubble() {
-    stroke(1);
+    stroke(0);
     //noStroke();
     strokeWeight(1);
     //fill(255 , 10);

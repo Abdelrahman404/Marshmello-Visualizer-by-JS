@@ -97,7 +97,7 @@ function draw(){
   //  ellipse(150, 200, vol * 100, vol * 100);
   //  ellipse(250, 300, vol * 250, vol * 250);
   //  ellipse(350, 400, vol * 175, vol * 175);
-  image(logo , windowWidth/4 , windowHeight/2 ,  vol * 500 , vol * 500 );
+  image(logo , windowWidth/8 , windowHeight/2 ,  vol * 500 , vol * 500 );
  
  
    

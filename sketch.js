@@ -73,11 +73,12 @@ function draw(){
     strokeWeight(2);
     beginShape();
 
-   for ( let i = 0 ; i < volHistory.length ; i++ ){
-    let y = map(volHistory[i] , 0 , 1 , windowHeight/2 , 0);
-    vertex(i , y );
-   }
-   endShape();
+
+  for (let i = 0; i < volHistory.length; i++) {
+    let y = map(volHistory[i], 0, 1, windowHeight / 3 , 0);
+    vertex(i, y);
+  }
+  endShape();
 
    if (volHistory.length > windowWidth){
      volHistory.splice(0 , 1);
@@ -96,7 +97,7 @@ function draw(){
   //  ellipse(150, 200, vol * 100, vol * 100);
   //  ellipse(250, 300, vol * 250, vol * 250);
   //  ellipse(350, 400, vol * 175, vol * 175);
-  image(logo , windowWidth/2 , windowHeight/2 ,  vol * 550 , vol * 550 );
+  image(logo , windowWidth/3 , windowHeight/2 ,  vol * 550 , vol * 550 );
  
  
    
